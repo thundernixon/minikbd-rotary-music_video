@@ -17,10 +17,10 @@ In mode 2, it controls the Chrome extension [Video Speed Controller](https://chr
 rm -rf ./*
 ```
 
-4. Now, copy in files from the `CIRCUITPY/` folder in this project to the miniKBD:
+4. Now, copy in files from the `CIRCUITPY/` folder in this project to the miniKBD (editing the file paths as needed):
 
 ```
-cp -R <downloaded_file_path>/minikbd-rotary-spotify_videospeed/CIRCUITPY/*  /Volumes/CIRCUITPY
+cp -R <downloaded_file_path>/minikbd-rotary-music_video/CIRCUITPY/* /Volumes/CIRCUITPY
 ```
 
 5. In Chrome (or Brave) browser, download the extension extension [Video Speed Controller](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en). Then, click its icon, and go to settings and set up as follows:
