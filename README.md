@@ -1,4 +1,4 @@
-# miniKbd rotary: System Music + Video Speed Control
+# MiniKbd rotary: System Music + Video Speed Control
 
 This is my code for the [miniKbd](https://github.com/andyclymer/minikbd), customized from the [TwoEncoder-Multimode](https://github.com/andyclymer/minikbd/tree/master/Software/TwoEncoder-Multimode) starter setup.
 
