@@ -6,7 +6,6 @@ In mode 1, it controls macOS system music – play/pause, up/down volume, and sk
 
 In mode 2, it controls the Chrome extension [Video Speed Controller](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en) – play/pause, skip forward/back by 5 seconds, and speed increase/decrease.
 
-To avoid existing shortcut keys on Vimeo, I have separately configured the Video Speed Controller [settings](chrome-extension://nffaoalbilbmmfgbnbgppjihopabppdk/options.html) to use `W` for _decrease speed_ and `E` for _increase speed_.
 
 ## Installation
 
@@ -23,6 +22,17 @@ rm -rf ./*
 ```
 cp -R <downloaded_file_path>/minikbd-rotary-spotify_videospeed/CIRCUITPY/*  /Volumes/CIRCUITPY
 ```
+
+5. In Chrome (or Brave) browser, download the extension extension [Video Speed Controller](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en). Then, click its icon, and go to settings and set up as follows:
+
+|Function|Hotkey|
+|------------|----------------|
+| Decrease speed | W |
+| Increase speed | E |
+| Rewind | Z |
+| Advance | X |
+
+![](assets/2019-02-23-13-37-18.png)
 
 ## Requirements
 
