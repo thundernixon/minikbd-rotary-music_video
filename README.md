@@ -25,3 +25,19 @@ CIRCUITPY lib files required for this setup:
 ```
 
 ...and the files inside this Gist. The most important one is `main.py`
+
+## Installation
+
+1. Download or clone this repo
+2. Follow [Adafruit's instructions to prevent hidden files on your miniKBD](https://learn.adafruit.com/welcome-to-circuitpython/troubleshooting#running-out-of-file-space-on-non-express-boards-19-37)
+3. If needed, clear out existing files in your CIRCUITPY. Open your terminal, then navigate to `/Volumes/CIRCUITPY` (if you haven't already), and delete all files inside:
+
+```
+rm -rf ./*
+```
+
+4. Now, copy in files from the `CIRCUITPY/` folder in this project to the miniKBD:
+
+```
+cp -R <downloaded_file_path>/minikbd-rotary-spotify_videospeed/CIRCUITPY/*  /Volumes/CIRCUITPY
+```
