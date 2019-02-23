@@ -32,8 +32,6 @@ cp -R <downloaded_file_path>/minikbd-rotary-spotify_videospeed/CIRCUITPY/*  /Vol
 | Rewind | Z |
 | Advance | X |
 
-![](assets/2019-02-23-13-37-18.png)
-
 ## Requirements
 
 All required files are included in the `CIRCUITPY/` folder of this project, but just in case you'd like to update them on your miniKBD, here are the required files from Adafruit:
